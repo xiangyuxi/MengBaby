@@ -8,25 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		068D83B31F42E6BB003A098F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83B21F42E6BB003A098F /* main.m */; };
-		068D83B61F42E6BB003A098F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83B51F42E6BB003A098F /* AppDelegate.m */; };
-		068D83B91F42E6BB003A098F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83B81F42E6BB003A098F /* ViewController.m */; };
-		068D83BC1F42E6BB003A098F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BA1F42E6BB003A098F /* Main.storyboard */; };
-		068D83BE1F42E6BB003A098F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BD1F42E6BB003A098F /* Assets.xcassets */; };
-		068D83C11F42E6BB003A098F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BF1F42E6BB003A098F /* LaunchScreen.storyboard */; };
+		068D83E61F42F9DD003A098F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83DE1F42F9DD003A098F /* AppDelegate.m */; };
+		068D83E71F42F9DD003A098F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068D83E01F42F9DD003A098F /* Assets.xcassets */; };
+		068D83E81F42F9DD003A098F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83E11F42F9DD003A098F /* LaunchScreen.storyboard */; };
+		068D83E91F42F9DD003A098F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83E31F42F9DD003A098F /* Main.storyboard */; };
+		068D83EA1F42F9DD003A098F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068D83E51F42F9DD003A098F /* Info.plist */; };
+		068D83F01F42FAF7003A098F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83ED1F42FAF7003A098F /* UIView+Frame.m */; };
+		068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83EF1F42FAF7003A098F /* UIView+Nib.m */; };
+		068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83F31F42FB0A003A098F /* UIColor+Hex.m */; };
+		068D83F71F42FC0D003A098F /* MengBaby-Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83F61F42FC0D003A098F /* MengBaby-Const.m */; };
 		C0B6267866239BFC6EC75928 /* libPods-MengBaby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66A84C073153C1FB03084CD /* libPods-MengBaby.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		068D83AE1F42E6BB003A098F /* MengBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068D83B21F42E6BB003A098F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		068D83B41F42E6BB003A098F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		068D83B51F42E6BB003A098F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		068D83B71F42E6BB003A098F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		068D83B81F42E6BB003A098F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		068D83BB1F42E6BB003A098F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		068D83BD1F42E6BB003A098F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		068D83C01F42E6BB003A098F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		068D83C21F42E6BB003A098F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068D83DD1F42F9DD003A098F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		068D83DE1F42F9DD003A098F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		068D83E01F42F9DD003A098F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		068D83E21F42F9DD003A098F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		068D83E41F42F9DD003A098F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068D83E51F42F9DD003A098F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068D83EB1F42FA3B003A098F /* MengBaby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MengBaby-Prefix.pch"; sourceTree = "<group>"; };
+		068D83EC1F42FAF7003A098F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		068D83ED1F42FAF7003A098F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		068D83EE1F42FAF7003A098F /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		068D83EF1F42FAF7003A098F /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		068D83F21F42FB0A003A098F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		068D83F31F42FB0A003A098F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		068D83F51F42FC0D003A098F /* MengBaby-Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MengBaby-Const.h"; sourceTree = "<group>"; };
+		068D83F61F42FC0D003A098F /* MengBaby-Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MengBaby-Const.m"; sourceTree = "<group>"; };
 		3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.release.xcconfig"; sourceTree = "<group>"; };
 		C66A84C073153C1FB03084CD /* libPods-MengBaby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBaby.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,14 +76,10 @@
 		068D83B01F42E6BB003A098F /* MengBaby */ = {
 			isa = PBXGroup;
 			children = (
-				068D83B41F42E6BB003A098F /* AppDelegate.h */,
-				068D83B51F42E6BB003A098F /* AppDelegate.m */,
-				068D83B71F42E6BB003A098F /* ViewController.h */,
-				068D83B81F42E6BB003A098F /* ViewController.m */,
-				068D83BA1F42E6BB003A098F /* Main.storyboard */,
-				068D83BD1F42E6BB003A098F /* Assets.xcassets */,
-				068D83BF1F42E6BB003A098F /* LaunchScreen.storyboard */,
-				068D83C21F42E6BB003A098F /* Info.plist */,
+				068D83DC1F42F9DD003A098F /* AppDelegate */,
+				068D83DF1F42F9DD003A098F /* Resource */,
+				068D83D91F42F98B003A098F /* Vendar */,
+				068D83C81F42F98B003A098F /* Classes */,
 				068D83B11F42E6BB003A098F /* Supporting Files */,
 			);
 			path = MengBaby;
@@ -82,8 +89,195 @@
 			isa = PBXGroup;
 			children = (
 				068D83B21F42E6BB003A098F /* main.m */,
+				068D83EB1F42FA3B003A098F /* MengBaby-Prefix.pch */,
+				068D83F51F42FC0D003A098F /* MengBaby-Const.h */,
+				068D83F61F42FC0D003A098F /* MengBaby-Const.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068D83C81F42F98B003A098F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				068D83CD1F42F98B003A098F /* Common */,
+				068D83C91F42F98B003A098F /* BabyCircle */,
+				068D83D11F42F98B003A098F /* Message */,
+				068D83D51F42F98B003A098F /* Myself */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		068D83C91F42F98B003A098F /* BabyCircle */ = {
+			isa = PBXGroup;
+			children = (
+				068D83CA1F42F98B003A098F /* Controller */,
+				068D83CB1F42F98B003A098F /* Model */,
+				068D83CC1F42F98B003A098F /* View */,
+			);
+			path = BabyCircle;
+			sourceTree = "<group>";
+		};
+		068D83CA1F42F98B003A098F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		068D83CB1F42F98B003A098F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		068D83CC1F42F98B003A098F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		068D83CD1F42F98B003A098F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				068D83CE1F42F98B003A098F /* Controller */,
+				068D83CF1F42F98B003A098F /* Model */,
+				068D83D01F42F98B003A098F /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		068D83CE1F42F98B003A098F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		068D83CF1F42F98B003A098F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		068D83D01F42F98B003A098F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		068D83D11F42F98B003A098F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				068D83D21F42F98B003A098F /* Controller */,
+				068D83D31F42F98B003A098F /* Model */,
+				068D83D41F42F98B003A098F /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		068D83D21F42F98B003A098F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		068D83D31F42F98B003A098F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		068D83D41F42F98B003A098F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		068D83D51F42F98B003A098F /* Myself */ = {
+			isa = PBXGroup;
+			children = (
+				068D83D61F42F98B003A098F /* Controller */,
+				068D83D71F42F98B003A098F /* Model */,
+				068D83D81F42F98B003A098F /* View */,
+			);
+			path = Myself;
+			sourceTree = "<group>";
+		};
+		068D83D61F42F98B003A098F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		068D83D71F42F98B003A098F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		068D83D81F42F98B003A098F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		068D83D91F42F98B003A098F /* Vendar */ = {
+			isa = PBXGroup;
+			children = (
+				068D83DA1F42F98B003A098F /* Categories */,
+				068D83DB1F42F98B003A098F /* Utis */,
+			);
+			path = Vendar;
+			sourceTree = "<group>";
+		};
+		068D83DA1F42F98B003A098F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				068D83F21F42FB0A003A098F /* UIColor+Hex.h */,
+				068D83F31F42FB0A003A098F /* UIColor+Hex.m */,
+				068D83EC1F42FAF7003A098F /* UIView+Frame.h */,
+				068D83ED1F42FAF7003A098F /* UIView+Frame.m */,
+				068D83EE1F42FAF7003A098F /* UIView+Nib.h */,
+				068D83EF1F42FAF7003A098F /* UIView+Nib.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		068D83DB1F42F98B003A098F /* Utis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utis;
+			sourceTree = "<group>";
+		};
+		068D83DC1F42F9DD003A098F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				068D83DD1F42F9DD003A098F /* AppDelegate.h */,
+				068D83DE1F42F9DD003A098F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		068D83DF1F42F9DD003A098F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				068D83E01F42F9DD003A098F /* Assets.xcassets */,
+				068D83E11F42F9DD003A098F /* LaunchScreen.storyboard */,
+				068D83E31F42F9DD003A098F /* Main.storyboard */,
+				068D83E51F42F9DD003A098F /* Info.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		911CF1DD80A2D623FA77029A /* Pods */ = {
@@ -137,6 +331,7 @@
 				TargetAttributes = {
 					068D83AD1F42E6BB003A098F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KE9J58DYLQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -164,9 +359,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068D83C11F42E6BB003A098F /* LaunchScreen.storyboard in Resources */,
-				068D83BE1F42E6BB003A098F /* Assets.xcassets in Resources */,
-				068D83BC1F42E6BB003A098F /* Main.storyboard in Resources */,
+				068D83EA1F42F9DD003A098F /* Info.plist in Resources */,
+				068D83E91F42F9DD003A098F /* Main.storyboard in Resources */,
+				068D83E71F42F9DD003A098F /* Assets.xcassets in Resources */,
+				068D83E81F42F9DD003A098F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068D83B91F42E6BB003A098F /* ViewController.m in Sources */,
-				068D83B61F42E6BB003A098F /* AppDelegate.m in Sources */,
+				068D83F71F42FC0D003A098F /* MengBaby-Const.m in Sources */,
+				068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */,
+				068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */,
+				068D83F01F42FAF7003A098F /* UIView+Frame.m in Sources */,
+				068D83E61F42F9DD003A098F /* AppDelegate.m in Sources */,
 				068D83B31F42E6BB003A098F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,20 +433,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		068D83BA1F42E6BB003A098F /* Main.storyboard */ = {
+		068D83E11F42F9DD003A098F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				068D83BB1F42E6BB003A098F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		068D83BF1F42E6BB003A098F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				068D83C01F42E6BB003A098F /* Base */,
+				068D83E21F42F9DD003A098F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		068D83E31F42F9DD003A098F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068D83E41F42F9DD003A098F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -348,9 +547,12 @@
 			baseConfigurationReference = D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MengBaby/Info.plist;
+				DEVELOPMENT_TEAM = KE9J58DYLQ;
+				GCC_PREFIX_HEADER = "MengBaby/MengBaby-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MengBaby/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yxiang.MengBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangu16.module.Car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -360,9 +562,12 @@
 			baseConfigurationReference = 3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MengBaby/Info.plist;
+				DEVELOPMENT_TEAM = KE9J58DYLQ;
+				GCC_PREFIX_HEADER = "MengBaby/MengBaby-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MengBaby/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yxiang.MengBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangu16.module.Car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -386,6 +591,7 @@
 				068D83C71F42E6BB003A098F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

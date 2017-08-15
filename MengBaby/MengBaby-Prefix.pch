@@ -1,0 +1,23 @@
+//
+//  MengBaby-Prefix.pch
+//  MengBaby
+//
+//  Created by yxiang on 2017/8/15.
+//  Copyright © 2017年 yxiang. All rights reserved.
+//
+
+#ifndef MengBaby_Prefix_pch
+#define MengBaby_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <pop/POP.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import "UIView+Nib.h"
+#import "UIView+Frame.h"
+#import "UIColor+Hex.h"
+#import "MengBaby-Const.h"
+
+#endif /* MengBaby_Prefix_pch */
