@@ -1,0 +1,37 @@
+PODS:
+  - AVOSCloud (6.1.1)
+  - AVOSCloudIM (6.1.1):
+    - AVOSCloud (= 6.1.1)
+    - AVOSCloudIM/_ARC (= 6.1.1)
+    - AVOSCloudIM/_NOARC (= 6.1.1)
+  - AVOSCloudIM/_ARC (6.1.1):
+    - AVOSCloud (= 6.1.1)
+    - AVOSCloudIM/_NOARC (= 6.1.1)
+  - AVOSCloudIM/_NOARC (6.1.1):
+    - AVOSCloud (= 6.1.1)
+  - MJExtension (3.0.13)
+  - pop (1.0.10)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
+  - MJExtension
+  - pop
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  AVOSCloud: a21318994cd97adaf9bf19cf0ac38187b3d94f00
+  AVOSCloudIM: 5ac1d53078cfd81e193e1eb6a365842d96ad3009
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: d0aa40d24667bb03ae0d857b572dda08b476a901
+
+COCOAPODS: 1.2.0

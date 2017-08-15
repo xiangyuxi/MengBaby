@@ -13,6 +13,7 @@
 		068D83BC1F42E6BB003A098F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BA1F42E6BB003A098F /* Main.storyboard */; };
 		068D83BE1F42E6BB003A098F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BD1F42E6BB003A098F /* Assets.xcassets */; };
 		068D83C11F42E6BB003A098F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D83BF1F42E6BB003A098F /* LaunchScreen.storyboard */; };
+		C0B6267866239BFC6EC75928 /* libPods-MengBaby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66A84C073153C1FB03084CD /* libPods-MengBaby.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		068D83BD1F42E6BB003A098F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068D83C01F42E6BB003A098F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		068D83C21F42E6BB003A098F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.release.xcconfig"; sourceTree = "<group>"; };
+		C66A84C073153C1FB03084CD /* libPods-MengBaby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBaby.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B6267866239BFC6EC75928 /* libPods-MengBaby.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				068D83B01F42E6BB003A098F /* MengBaby */,
 				068D83AF1F42E6BB003A098F /* Products */,
+				911CF1DD80A2D623FA77029A /* Pods */,
+				D9B441724F0DE1B471654B98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		911CF1DD80A2D623FA77029A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */,
+				3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9B441724F0DE1B471654B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66A84C073153C1FB03084CD /* libPods-MengBaby.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 068D83C51F42E6BB003A098F /* Build configuration list for PBXNativeTarget "MengBaby" */;
 			buildPhases = (
+				D023165A103A9F177B88ECFB /* [CP] Check Pods Manifest.lock */,
 				068D83AA1F42E6BB003A098F /* Sources */,
 				068D83AB1F42E6BB003A098F /* Frameworks */,
 				068D83AC1F42E6BB003A098F /* Resources */,
+				42E16FA264CBBB123458C1B8 /* [CP] Embed Pods Frameworks */,
+				71D6979E4DD297CF52037DC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E16FA264CBBB123458C1B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D6979E4DD297CF52037DC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D023165A103A9F177B88ECFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		068D83AA1F42E6BB003A098F /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		068D83C61F42E6BB003A098F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MengBaby/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		068D83C71F42E6BB003A098F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MengBaby/Info.plist;
