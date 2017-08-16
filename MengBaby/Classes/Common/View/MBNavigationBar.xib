@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MBNavigationBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENG" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7n-bl-B7W">
+                    <rect key="frame" x="12" y="22" width="56" height="28.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28.5" id="mhl-Ke-EHV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFT-Xr-wsb">
+                    <rect key="frame" x="328" y="23.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="AZu-Do-Fr9"/>
+                        <constraint firstAttribute="height" constant="35" id="ZOW-eO-KoF"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="add_new_cIrcle">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_bottom_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="AI8-iL-zjE">
+                    <rect key="frame" x="0.0" y="64" width="375" height="5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="P7n-bl-B7W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="4YX-DR-Sn8"/>
+                <constraint firstItem="AI8-iL-zjE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CjZ-7r-d8L"/>
+                <constraint firstItem="wFT-Xr-wsb" firstAttribute="bottom" secondItem="P7n-bl-B7W" secondAttribute="bottom" constant="8" id="NdE-vC-Kv0"/>
+                <constraint firstAttribute="trailing" secondItem="AI8-iL-zjE" secondAttribute="trailing" id="RhD-Jd-pRB"/>
+                <constraint firstItem="AI8-iL-zjE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="kBR-Ge-Eic"/>
+                <constraint firstAttribute="trailingMargin" secondItem="wFT-Xr-wsb" secondAttribute="trailing" constant="4" id="m2C-ut-1hY"/>
+                <constraint firstItem="P7n-bl-B7W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="4" id="tEA-mV-rb9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLineImageView" destination="AI8-iL-zjE" id="7he-Pu-F2C"/>
+                <outlet property="rightButton" destination="wFT-Xr-wsb" id="fJu-AL-H6y"/>
+                <outlet property="titleLabel" destination="P7n-bl-B7W" id="kDR-ZU-N7Z"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_new_cIrcle" width="20" height="20"/>
+        <image name="title_bottom_line.png" width="320" height="5"/>
+    </resources>
+</document>

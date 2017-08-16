@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065A85791F43F6AF00E2FBFD /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85781F43F6AF00E2FBFD /* BCViewController.m */; };
+		065A857E1F43F77900E2FBFD /* theme.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 065A857D1F43F77900E2FBFD /* theme.jpeg */; };
+		065A85A11F442EA200E2FBFD /* MBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85A01F442EA200E2FBFD /* MBaseViewController.m */; };
+		065A85A41F4430F400E2FBFD /* MCTableViewInsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85A31F4430F400E2FBFD /* MCTableViewInsetView.m */; };
+		065A85A61F4430FC00E2FBFD /* MCTableViewInsetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A85A51F4430FC00E2FBFD /* MCTableViewInsetView.xib */; };
+		065A85A91F443A4D00E2FBFD /* MBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85A81F443A4D00E2FBFD /* MBNavigationBar.m */; };
+		065A85AB1F443A5600E2FBFD /* MBNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A85AA1F443A5600E2FBFD /* MBNavigationBar.xib */; };
+		065A85AD1F4449D600E2FBFD /* title_bottom_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 065A85AC1F4449D600E2FBFD /* title_bottom_line@2x.png */; };
+		065A85B01F444DB900E2FBFD /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85AF1F444DB900E2FBFD /* MBTabBarController.m */; };
 		068D83B31F42E6BB003A098F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83B21F42E6BB003A098F /* main.m */; };
 		068D83E61F42F9DD003A098F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83DE1F42F9DD003A098F /* AppDelegate.m */; };
 		068D83E71F42F9DD003A098F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068D83E01F42F9DD003A098F /* Assets.xcassets */; };
@@ -21,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065A85771F43F6AF00E2FBFD /* BCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		065A85781F43F6AF00E2FBFD /* BCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		065A857D1F43F77900E2FBFD /* theme.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theme.jpeg; sourceTree = "<group>"; };
+		065A859F1F442EA200E2FBFD /* MBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBaseViewController.h; sourceTree = "<group>"; };
+		065A85A01F442EA200E2FBFD /* MBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBaseViewController.m; sourceTree = "<group>"; };
+		065A85A21F4430F400E2FBFD /* MCTableViewInsetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableViewInsetView.h; sourceTree = "<group>"; };
+		065A85A31F4430F400E2FBFD /* MCTableViewInsetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableViewInsetView.m; sourceTree = "<group>"; };
+		065A85A51F4430FC00E2FBFD /* MCTableViewInsetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCTableViewInsetView.xib; sourceTree = "<group>"; };
+		065A85A71F443A4D00E2FBFD /* MBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationBar.h; sourceTree = "<group>"; };
+		065A85A81F443A4D00E2FBFD /* MBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationBar.m; sourceTree = "<group>"; };
+		065A85AA1F443A5600E2FBFD /* MBNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBNavigationBar.xib; sourceTree = "<group>"; };
+		065A85AC1F4449D600E2FBFD /* title_bottom_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title_bottom_line@2x.png"; sourceTree = "<group>"; };
+		065A85AE1F444DB900E2FBFD /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
+		065A85AF1F444DB900E2FBFD /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
 		068D83AE1F42E6BB003A098F /* MengBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068D83B21F42E6BB003A098F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		068D83DD1F42F9DD003A098F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065A857C1F43F77900E2FBFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				065A85AC1F4449D600E2FBFD /* title_bottom_line@2x.png */,
+				065A857D1F43F77900E2FBFD /* theme.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		068D83A51F42E6BB003A098F = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +152,8 @@
 		068D83CA1F42F98B003A098F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				065A85771F43F6AF00E2FBFD /* BCViewController.h */,
+				065A85781F43F6AF00E2FBFD /* BCViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,6 +168,9 @@
 		068D83CC1F42F98B003A098F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				065A85A21F4430F400E2FBFD /* MCTableViewInsetView.h */,
+				065A85A31F4430F400E2FBFD /* MCTableViewInsetView.m */,
+				065A85A51F4430FC00E2FBFD /* MCTableViewInsetView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +188,10 @@
 		068D83CE1F42F98B003A098F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				065A859F1F442EA200E2FBFD /* MBaseViewController.h */,
+				065A85A01F442EA200E2FBFD /* MBaseViewController.m */,
+				065A85AE1F444DB900E2FBFD /* MBTabBarController.h */,
+				065A85AF1F444DB900E2FBFD /* MBTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +206,9 @@
 		068D83D01F42F98B003A098F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				065A85A71F443A4D00E2FBFD /* MBNavigationBar.h */,
+				065A85A81F443A4D00E2FBFD /* MBNavigationBar.m */,
+				065A85AA1F443A5600E2FBFD /* MBNavigationBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +316,7 @@
 		068D83DF1F42F9DD003A098F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				065A857C1F43F77900E2FBFD /* Images */,
 				068D83E01F42F9DD003A098F /* Assets.xcassets */,
 				068D83E11F42F9DD003A098F /* LaunchScreen.storyboard */,
 				068D83E31F42F9DD003A098F /* Main.storyboard */,
@@ -359,9 +404,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065A857E1F43F77900E2FBFD /* theme.jpeg in Resources */,
 				068D83EA1F42F9DD003A098F /* Info.plist in Resources */,
+				065A85AD1F4449D600E2FBFD /* title_bottom_line@2x.png in Resources */,
+				065A85AB1F443A5600E2FBFD /* MBNavigationBar.xib in Resources */,
 				068D83E91F42F9DD003A098F /* Main.storyboard in Resources */,
 				068D83E71F42F9DD003A098F /* Assets.xcassets in Resources */,
+				065A85A61F4430FC00E2FBFD /* MCTableViewInsetView.xib in Resources */,
 				068D83E81F42F9DD003A098F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,11 +471,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				068D83F71F42FC0D003A098F /* MengBaby-Const.m in Sources */,
+				065A85A41F4430F400E2FBFD /* MCTableViewInsetView.m in Sources */,
+				065A85B01F444DB900E2FBFD /* MBTabBarController.m in Sources */,
+				065A85A91F443A4D00E2FBFD /* MBNavigationBar.m in Sources */,
 				068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */,
 				068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */,
+				065A85791F43F6AF00E2FBFD /* BCViewController.m in Sources */,
 				068D83F01F42FAF7003A098F /* UIView+Frame.m in Sources */,
 				068D83E61F42F9DD003A098F /* AppDelegate.m in Sources */,
 				068D83B31F42E6BB003A098F /* main.m in Sources */,
+				065A85A11F442EA200E2FBFD /* MBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
