@@ -26,6 +26,7 @@
 		068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83EF1F42FAF7003A098F /* UIView+Nib.m */; };
 		068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83F31F42FB0A003A098F /* UIColor+Hex.m */; };
 		068D83F71F42FC0D003A098F /* MengBaby-Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D83F61F42FC0D003A098F /* MengBaby-Const.m */; };
+		75F058281F4484110049616C /* MMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F058271F4484110049616C /* MMessageViewController.m */; };
 		C0B6267866239BFC6EC75928 /* libPods-MengBaby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66A84C073153C1FB03084CD /* libPods-MengBaby.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,8 @@
 		068D83F51F42FC0D003A098F /* MengBaby-Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MengBaby-Const.h"; sourceTree = "<group>"; };
 		068D83F61F42FC0D003A098F /* MengBaby-Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MengBaby-Const.m"; sourceTree = "<group>"; };
 		3D8B71EBB07B3B65D22482EA /* Pods-MengBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.release.xcconfig"; sourceTree = "<group>"; };
+		75F058261F4484110049616C /* MMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMessageViewController.h; sourceTree = "<group>"; };
+		75F058271F4484110049616C /* MMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMessageViewController.m; sourceTree = "<group>"; };
 		C66A84C073153C1FB03084CD /* libPods-MengBaby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBaby.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DD5564E2F86B9D386A4D74 /* Pods-MengBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBaby/Pods-MengBaby.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +229,8 @@
 		068D83D21F42F98B003A098F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				75F058261F4484110049616C /* MMessageViewController.h */,
+				75F058271F4484110049616C /* MMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -474,6 +479,7 @@
 				065A85A41F4430F400E2FBFD /* MCTableViewInsetView.m in Sources */,
 				065A85B01F444DB900E2FBFD /* MBTabBarController.m in Sources */,
 				065A85A91F443A4D00E2FBFD /* MBNavigationBar.m in Sources */,
+				75F058281F4484110049616C /* MMessageViewController.m in Sources */,
 				068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */,
 				068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */,
 				065A85791F43F6AF00E2FBFD /* BCViewController.m in Sources */,
