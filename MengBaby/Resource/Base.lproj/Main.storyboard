@@ -92,11 +92,11 @@
             </objects>
             <point key="canvasLocation" x="1100" y="813"/>
         </scene>
-        <!--萌圈-->
+        <!--item-->
         <scene sceneID="iwq-vd-Fjx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7yN-42-xCj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="萌圈" image="meng_circle_tabbar_icon" id="e3N-n8-J09"/>
+                    <tabBarItem key="tabBarItem" title="item" id="e3N-n8-J09"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="AEJ-VO-8IB">
@@ -118,6 +118,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RaR-Ob-fuz" customClass="MBTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="4T5-0z-Sou">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,7 +133,4 @@
             <point key="canvasLocation" x="160.80000000000001" y="96.7016491754123"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="meng_circle_tabbar_icon" width="26" height="26"/>
-    </resources>
 </document>
