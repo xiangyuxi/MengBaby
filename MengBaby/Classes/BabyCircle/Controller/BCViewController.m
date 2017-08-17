@@ -62,7 +62,8 @@ static const CGFloat kNavigationBarHeight = 64.f;
     
     // Theme animation effection
     if (offsetY <= 0) {
-        self.navigationBar.backgroundColor = COLOR_OF_HEXALPHA(0xffffff, 0);
+        self.navigationBar.backgroundColor = [UIColor clearColor];
+        self.navigationBar.bottomLineImageView.alpha = 0;
         
         CGFloat height = kTableViewContentInsetViewInitHeight+ABS(offsetY);
         CGFloat rate = height/kTableViewContentInsetViewInitHeight;

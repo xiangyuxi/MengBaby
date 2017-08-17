@@ -27,7 +27,7 @@ static UITabBarItem* createItem(NSString* nroImage, NSString* title) {
 {
     [super viewDidLoad];
     NSArray* imageNames = @[@"meng_circle_tabbar_icon",@"meng_chat_tabbar_icon",@"meng_myself_tabbar_icon"];
-    NSArray* titleNames = @[@"萌圈",@"消息",@"我"];
+    NSArray* titleNames = @[@"宝宝圈",@"畅聊",@"我"];
     for (UIViewController* viewController in self.viewControllers) {
         NSInteger index = [self.viewControllers indexOfObject:viewController];
         viewController.tabBarItem = createItem(imageNames[index], titleNames[index]);

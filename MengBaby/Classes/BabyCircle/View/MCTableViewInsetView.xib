@@ -22,28 +22,72 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="294"/>
                     <items/>
                 </toolbar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ad-YY-dh7">
+                    <rect key="frame" x="147" y="161" width="80" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱弹吉他的纳兰沛容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76K-Cc-Bw6">
+                    <rect key="frame" x="12" y="100" width="351" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3M3-3Z-tPU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                    <color key="textColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-hF-u3d">
+                    <rect key="frame" x="147.5" y="161" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="dS4-Oh-NFX"/>
+                        <constraint firstAttribute="height" constant="80" id="dnf-y9-ouH"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期四" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tas-LE-vBw">
+                    <rect key="frame" x="164.5" y="253" width="46" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="HfJ-1j-g5g" secondAttribute="trailing" id="3W4-gV-bP5"/>
+                <constraint firstItem="Tas-LE-vBw" firstAttribute="top" secondItem="PeG-hF-u3d" secondAttribute="bottom" constant="12" id="3hf-PV-jRi"/>
+                <constraint firstItem="PeG-hF-u3d" firstAttribute="top" secondItem="76K-Cc-Bw6" secondAttribute="bottom" constant="31" id="3vz-jE-pyd"/>
+                <constraint firstItem="4ad-YY-dh7" firstAttribute="height" secondItem="PeG-hF-u3d" secondAttribute="height" id="7h6-Qb-G9y"/>
                 <constraint firstItem="EH2-Ve-orO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9wE-4t-2pH"/>
+                <constraint firstItem="76K-Cc-Bw6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="AYx-Sp-DIG"/>
                 <constraint firstItem="HfJ-1j-g5g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CMi-MU-Mm7"/>
                 <constraint firstItem="EH2-Ve-orO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Crk-qb-RwW"/>
+                <constraint firstItem="4ad-YY-dh7" firstAttribute="centerY" secondItem="PeG-hF-u3d" secondAttribute="centerY" id="GEQ-yU-hbp"/>
+                <constraint firstItem="4ad-YY-dh7" firstAttribute="width" secondItem="PeG-hF-u3d" secondAttribute="width" id="Iu4-Dp-4Cj"/>
                 <constraint firstItem="HfJ-1j-g5g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LNL-OB-kv8"/>
                 <constraint firstAttribute="bottom" secondItem="HfJ-1j-g5g" secondAttribute="bottom" id="XLz-zh-zUW"/>
                 <constraint firstAttribute="trailing" secondItem="EH2-Ve-orO" secondAttribute="trailing" id="Z9t-um-VUr"/>
+                <constraint firstAttribute="trailing" secondItem="76K-Cc-Bw6" secondAttribute="trailing" constant="12" id="bCU-cA-jGW"/>
+                <constraint firstItem="Tas-LE-vBw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bru-hE-ZJ5"/>
                 <constraint firstAttribute="bottom" secondItem="EH2-Ve-orO" secondAttribute="bottom" id="de5-vK-KLD"/>
+                <constraint firstItem="4ad-YY-dh7" firstAttribute="centerX" secondItem="PeG-hF-u3d" secondAttribute="centerX" id="hmQ-YX-bR9"/>
+                <constraint firstItem="PeG-hF-u3d" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jSk-tV-1Zu"/>
+                <constraint firstItem="76K-Cc-Bw6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sxL-rv-5Oa"/>
+                <constraint firstItem="76K-Cc-Bw6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="vYR-Yh-4nt"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="dateLabel" destination="Tas-LE-vBw" id="M4x-ON-ww2"/>
                 <outlet property="effectiveView" destination="HfJ-1j-g5g" id="b9w-Kl-wvI"/>
+                <outlet property="shadowView" destination="4ad-YY-dh7" id="ReF-kf-flU"/>
                 <outlet property="themeImageView" destination="EH2-Ve-orO" id="fRA-2p-2Ha"/>
+                <outlet property="userIconImageView" destination="PeG-hF-u3d" id="Qp0-yV-Zbs"/>
+                <outlet property="userNameLabel" destination="76K-Cc-Bw6" id="6gg-V1-Kct"/>
             </connections>
+            <point key="canvasLocation" x="26.5" y="52"/>
         </view>
     </objects>
     <resources>
         <image name="theme.jpeg" width="1024" height="683"/>
+        <image name="user_icon.jpg" width="200" height="200"/>
     </resources>
 </document>

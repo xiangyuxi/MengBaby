@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06220A361F4539C300C64629 /* user_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06220A351F4539C300C64629 /* user_icon.jpg */; };
+		06220A391F453EE300C64629 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A381F453EE300C64629 /* UIImage+Clip.m */; };
+		06220A3F1F4540AB00C64629 /* UIImageView+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A3E1F4540AB00C64629 /* UIImageView+Clip.m */; };
+		06220A421F4548EA00C64629 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A411F4548EA00C64629 /* MSViewController.m */; };
+		06220A461F456CD200C64629 /* MyselfCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A441F456CD200C64629 /* MyselfCommonCell.m */; };
+		06220A471F456CD200C64629 /* MyselfCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06220A451F456CD200C64629 /* MyselfCommonCell.xib */; };
+		06220A4B1F456F2C00C64629 /* MyselfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A491F456F2C00C64629 /* MyselfCell.m */; };
+		06220A4C1F456F2C00C64629 /* MyselfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06220A4A1F456F2C00C64629 /* MyselfCell.xib */; };
+		06220A4F1F457E3D00C64629 /* MSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220A4E1F457E3D00C64629 /* MSettingViewController.m */; };
 		065A85791F43F6AF00E2FBFD /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85781F43F6AF00E2FBFD /* BCViewController.m */; };
 		065A857E1F43F77900E2FBFD /* theme.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 065A857D1F43F77900E2FBFD /* theme.jpeg */; };
 		065A85A11F442EA200E2FBFD /* MBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A85A01F442EA200E2FBFD /* MBaseViewController.m */; };
@@ -31,6 +40,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06220A351F4539C300C64629 /* user_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_icon.jpg; sourceTree = "<group>"; };
+		06220A371F453EE300C64629 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		06220A381F453EE300C64629 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		06220A3D1F4540AB00C64629 /* UIImageView+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Clip.h"; sourceTree = "<group>"; };
+		06220A3E1F4540AB00C64629 /* UIImageView+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Clip.m"; sourceTree = "<group>"; };
+		06220A401F4548EA00C64629 /* MSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		06220A411F4548EA00C64629 /* MSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		06220A431F456CD200C64629 /* MyselfCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfCommonCell.h; sourceTree = "<group>"; };
+		06220A441F456CD200C64629 /* MyselfCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfCommonCell.m; sourceTree = "<group>"; };
+		06220A451F456CD200C64629 /* MyselfCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfCommonCell.xib; sourceTree = "<group>"; };
+		06220A481F456F2C00C64629 /* MyselfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfCell.h; sourceTree = "<group>"; };
+		06220A491F456F2C00C64629 /* MyselfCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfCell.m; sourceTree = "<group>"; };
+		06220A4A1F456F2C00C64629 /* MyselfCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfCell.xib; sourceTree = "<group>"; };
+		06220A4D1F457E3D00C64629 /* MSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSettingViewController.h; sourceTree = "<group>"; };
+		06220A4E1F457E3D00C64629 /* MSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSettingViewController.m; sourceTree = "<group>"; };
 		065A85771F43F6AF00E2FBFD /* BCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
 		065A85781F43F6AF00E2FBFD /* BCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
 		065A857D1F43F77900E2FBFD /* theme.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theme.jpeg; sourceTree = "<group>"; };
@@ -84,6 +108,7 @@
 		065A857C1F43F77900E2FBFD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				06220A351F4539C300C64629 /* user_icon.jpg */,
 				065A85AC1F4449D600E2FBFD /* title_bottom_line@2x.png */,
 				065A857D1F43F77900E2FBFD /* theme.jpeg */,
 			);
@@ -262,6 +287,10 @@
 		068D83D61F42F98B003A098F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				06220A401F4548EA00C64629 /* MSViewController.h */,
+				06220A411F4548EA00C64629 /* MSViewController.m */,
+				06220A4D1F457E3D00C64629 /* MSettingViewController.h */,
+				06220A4E1F457E3D00C64629 /* MSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +305,12 @@
 		068D83D81F42F98B003A098F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				06220A431F456CD200C64629 /* MyselfCommonCell.h */,
+				06220A441F456CD200C64629 /* MyselfCommonCell.m */,
+				06220A451F456CD200C64629 /* MyselfCommonCell.xib */,
+				06220A481F456F2C00C64629 /* MyselfCell.h */,
+				06220A491F456F2C00C64629 /* MyselfCell.m */,
+				06220A4A1F456F2C00C64629 /* MyselfCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +327,10 @@
 		068D83DA1F42F98B003A098F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				06220A3D1F4540AB00C64629 /* UIImageView+Clip.h */,
+				06220A3E1F4540AB00C64629 /* UIImageView+Clip.m */,
+				06220A371F453EE300C64629 /* UIImage+Clip.h */,
+				06220A381F453EE300C64629 /* UIImage+Clip.m */,
 				068D83F21F42FB0A003A098F /* UIColor+Hex.h */,
 				068D83F31F42FB0A003A098F /* UIColor+Hex.m */,
 				068D83EC1F42FAF7003A098F /* UIView+Frame.h */,
@@ -410,12 +449,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				065A857E1F43F77900E2FBFD /* theme.jpeg in Resources */,
+				06220A4C1F456F2C00C64629 /* MyselfCell.xib in Resources */,
 				068D83EA1F42F9DD003A098F /* Info.plist in Resources */,
 				065A85AD1F4449D600E2FBFD /* title_bottom_line@2x.png in Resources */,
+				06220A361F4539C300C64629 /* user_icon.jpg in Resources */,
 				065A85AB1F443A5600E2FBFD /* MBNavigationBar.xib in Resources */,
 				068D83E91F42F9DD003A098F /* Main.storyboard in Resources */,
 				068D83E71F42F9DD003A098F /* Assets.xcassets in Resources */,
 				065A85A61F4430FC00E2FBFD /* MCTableViewInsetView.xib in Resources */,
+				06220A471F456CD200C64629 /* MyselfCommonCell.xib in Resources */,
 				068D83E81F42F9DD003A098F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,14 +519,20 @@
 			files = (
 				068D83F71F42FC0D003A098F /* MengBaby-Const.m in Sources */,
 				065A85A41F4430F400E2FBFD /* MCTableViewInsetView.m in Sources */,
+				06220A3F1F4540AB00C64629 /* UIImageView+Clip.m in Sources */,
+				06220A4F1F457E3D00C64629 /* MSettingViewController.m in Sources */,
 				065A85B01F444DB900E2FBFD /* MBTabBarController.m in Sources */,
 				065A85A91F443A4D00E2FBFD /* MBNavigationBar.m in Sources */,
 				75F058281F4484110049616C /* MMessageViewController.m in Sources */,
+				06220A461F456CD200C64629 /* MyselfCommonCell.m in Sources */,
 				068D83F11F42FAF7003A098F /* UIView+Nib.m in Sources */,
+				06220A391F453EE300C64629 /* UIImage+Clip.m in Sources */,
 				068D83F41F42FB0A003A098F /* UIColor+Hex.m in Sources */,
 				065A85791F43F6AF00E2FBFD /* BCViewController.m in Sources */,
+				06220A421F4548EA00C64629 /* MSViewController.m in Sources */,
 				068D83F01F42FAF7003A098F /* UIView+Frame.m in Sources */,
 				068D83E61F42F9DD003A098F /* AppDelegate.m in Sources */,
+				06220A4B1F456F2C00C64629 /* MyselfCell.m in Sources */,
 				068D83B31F42E6BB003A098F /* main.m in Sources */,
 				065A85A11F442EA200E2FBFD /* MBaseViewController.m in Sources */,
 			);

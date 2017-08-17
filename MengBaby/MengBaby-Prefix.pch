@@ -18,6 +18,8 @@
 #import "UIView+Nib.h"
 #import "UIView+Frame.h"
 #import "UIColor+Hex.h"
+#import "UIImage+Clip.h"
+#import "UIImageView+Clip.h"
 #import "MengBaby-Const.h"
 
 #endif /* MengBaby_Prefix_pch */

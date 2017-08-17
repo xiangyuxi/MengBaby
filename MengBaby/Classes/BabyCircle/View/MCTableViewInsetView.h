@@ -12,5 +12,9 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView* themeImageView;
 @property (weak, nonatomic) IBOutlet UIToolbar* effectiveView;
+@property (weak, nonatomic) IBOutlet UILabel* userNameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView* userIconImageView;
+@property (weak, nonatomic) IBOutlet UILabel* dateLabel;
+@property (weak, nonatomic) IBOutlet UIView* shadowView;
 
 @end

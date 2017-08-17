@@ -12,7 +12,10 @@
 
 @property (weak, nonatomic) IBOutlet UILabel* titleLabel;
 @property (weak, nonatomic) IBOutlet UIButton* rightButton;
-@property (weak, nonatomic) IBOutlet UIImageView *bottomLineImageView;
+@property (weak, nonatomic) IBOutlet UIImageView* bottomLineImageView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint* titleLabelLeftConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint* titleLabelCenterConstraint;
+@property (weak, nonatomic) IBOutlet UIButton* backButton;
 
 @property (assign, nonatomic) CGFloat bgColorAlpha;
 
